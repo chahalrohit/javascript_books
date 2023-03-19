@@ -1,2 +1,3 @@
-const value = 0;
-console.log(typeof value);
+let [first, [second, third]] = [1, [2, 3]];
+
+console.log(first[0]);
